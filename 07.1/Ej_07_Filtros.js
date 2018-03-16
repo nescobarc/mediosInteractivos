@@ -18,9 +18,9 @@ var medida = 0;
 
 function preload(){ // Imagenes
  
-im = loadImage('assets/Jirafa.jpg');
-mascara = loadImage('assets/Piedras.jpg');
-Mascara = loadImage('assets/Jirafa.jpg');
+im = loadImage('Jirafa.jpg');
+mascara = loadImage('Piedras.jpg');
+Mascara = loadImage('Jirafa.jpg');
 }
 
 function setup() {
