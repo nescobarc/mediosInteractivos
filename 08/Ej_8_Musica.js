@@ -6,7 +6,7 @@ var Verde;
 var Rojo;
 
 function preload(){
-  Sonido=loadSound('assets/Cancion.mp3');
+  Sonido=loadSound('Cancion.mp3');
 }
 
 function setup() {
