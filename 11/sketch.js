@@ -270,10 +270,6 @@ function draw() {
   }
 }
 
-function mouseDragged(){
-	return false;
-}
-
 function touchMoved(){
 	if(estado == Juego && mordido == false){
     for (i = 0; i < Gata.length; i = i + 1) {
@@ -283,6 +279,9 @@ function touchMoved(){
   }
 }
 
+function mouseDragged(){
+	return false;
+}
 //Cambio de estados en el iPad;
 function touchEnded(){
 	if(estado == Intro){
