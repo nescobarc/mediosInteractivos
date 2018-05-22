@@ -101,6 +101,7 @@ function draw() {
     Carro.y =height - 60;
     perder = 0;
     ganar = 0;
+	 tiempo = 20;
   } else if (estado == Instrucciones) {
     background(instrucciones);
 
