@@ -97,7 +97,8 @@ function draw() {
     	Gata[i].x = random(0, width); //Posición
   		Gata[i].y = random(250, height);
     }
-    
+    Carro.x = width; //Posición Carro
+    Carro.y =height - 60;
     perder = 0;
     ganar = 0;
   } else if (estado == Instrucciones) {
