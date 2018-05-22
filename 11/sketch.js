@@ -302,8 +302,8 @@ function touchEnded(){
 }
 // Especie Gato
 function Gatos(_genero) {
-  this.x = random(0, width); //Posición
-  this.y = random(250, height);
+  this.x = width/2; //Posición
+  this.y = height/2;
   this.tamaño = 30; // Tamaño GATOS
   this.genero = _genero;
 
@@ -412,8 +412,8 @@ function Perros(_genero) {
 
 // CARROS
 function Carros(_genero) {
-  this.x = random(0, width); //Posición Carro
-  this.y = random(250, height);
+  this.x = width; //Posición Carro
+  this.y =height - 60;
   this.tamaño = 40; // Tamaño CARRO
   this.genero = _genero;
 
