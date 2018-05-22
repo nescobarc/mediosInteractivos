@@ -277,6 +277,7 @@ function touchMoved(){
     	Gata[i].y = touches[0].y;
     }
   }
+	return false;
 }
 
 function mouseDragged(){
