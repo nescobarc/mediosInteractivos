@@ -282,9 +282,6 @@ function touchMoved(){
 }
 }
 
-function mouseDragged(){
-	return false;
-}
 //Cambio de estados en el iPad;
 function touchEnded(){
 	if(estado == Intro){
