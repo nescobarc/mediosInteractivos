@@ -251,12 +251,12 @@ function draw() {
     if (tiempo == 0) {
       estado = Perder;
     }
-    /*
+  
     if (mouseIsPressed == true && mordido == false) {
       Gata[0].x = mouseX;
       Gata[0].y = mouseY;
     }
-*/
+
   } else if (estado == Ganar) { //Ganar Juego
     background(0);
     fill(255);
@@ -269,7 +269,7 @@ function draw() {
 
   }
 }
-
+/*
 function touchMoved(){
 	if(estado == Juego && mordido == false){
     for (i = 0; i < Gata.length; i = i + 1) {
@@ -277,9 +277,10 @@ function touchMoved(){
     	Gata[i].y = touches[0].y;
     }
   }
+}
+*/
 	function mouseDragged(){
 	return false;
-}
 }
 
 //Cambio de estados en el iPad;
