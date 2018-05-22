@@ -94,8 +94,8 @@ function draw() {
   	}
     
     for (i = 0; i < Gata.length; i = i + 1) {
-    	Gata[i].x = random(0, width); //Posición
-  		Gata[i].y = random(250, height);
+    	Gata[i].x = width/2; //Posición
+  	Gata[i].y = height/2;
     }
     Carro.x = width; //Posición Carro
     Carro.y =height - 60;
