@@ -297,7 +297,7 @@ function touchEnded(){
   	estado = Intro;  
   }
   
-  //Evito que a penas se suelte el mouse después de perder pase a la INTRO
+  //Evitar que pase INTRO
   if (estado == Perder && perder == 0){
   	perder = 1;  
   }
